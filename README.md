@@ -28,3 +28,7 @@ Run `python generate_dataset.py` first if you want a fresh synthetic sample. Bot
 ## Tests and verification
 
 Run `python -m py_compile generate_dataset.py preprocess_data.py logisticregression.py scraper.py`. Open the preprocessing report to review missing values, removed duplicates, and the output row count. `logisticregression.py` is a separate Iris classifier exercise. `scraper.py` is a small pandas exercise. The AQI pipeline currently covers data preparation and exploration.
+
+## License
+
+The project code is available under the [MIT License](LICENSE).
